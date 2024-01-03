@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Suren-Portfolio/static/css/main.170c6756.css",
+    "main.js": "/Suren-Portfolio/static/js/main.d89e0cf3.js",
+    "index.html": "/Suren-Portfolio/index.html",
+    "main.170c6756.css.map": "/Suren-Portfolio/static/css/main.170c6756.css.map",
+    "main.d89e0cf3.js.map": "/Suren-Portfolio/static/js/main.d89e0cf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.170c6756.css",
+    "static/js/main.d89e0cf3.js"
+  ]
+}
