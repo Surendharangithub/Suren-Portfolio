@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  -webkit-tap-highlight-color: transparent !important;
+}
+@layer utilities {
+  .text-stroke {
+    position: absolute;
+    font-size: 5vw;
+    z-index: 0;
+    bottom: 60px;
+    right: 0%;
+    margin-bottom: 20px;
+    animation: go 20s infinite linear;
+    color: transparent;
+    white-space: nowrap; /* Prevent text from wrapping */
+    -webkit-text-stroke: 0.07vw rgb(254 202 202);
+    text-transform: uppercase; /* Set your desired text stroke properties */ /* Non-prefixed version for broader browser support */
+  }
+  @keyframes go {
+    0%,100% {
+      transform: translateX(150%);
+    }
+    50% {
+      transform: translateX(-350%);
+    }
+    51%{
+      transform:translateX(-350%) ;
+    }
+
+  } 
+}
+
+@layer utilities{
+  .skills_path{
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+}
