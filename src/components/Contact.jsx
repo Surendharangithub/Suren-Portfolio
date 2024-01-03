@@ -49,13 +49,13 @@ function Contact() {
         </div>
         <div className=" w-full flex flex-col md:flex-row gap-5">
           <div className="md:w-1/2 w-full px-4 py-2">
-            <div className="dark:text-white/75 relative z-10  text-7xl uppercase font-Poppins flex  mt-24 text-slate-800 ">
+            <div className="dark:text-white/75 hidden md:flex relative z-10  text-7xl uppercase font-Poppins   mt-24 text-slate-800 ">
               GET in <br />
               Touch....
               <div className=" w-24 h-24 absolute max-md:hidden bg-red-200 top-0 right-[50%] rounded-full -z-10 blur-2xl  "></div>
             </div>
             
-            <div className=" dark:text-white/50 my-10 text-lg flex gap-4">
+            <div className=" dark:text-white/50 my-10 text-lg hidden md:flex gap-4">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ function Contact() {
               </svg>
               +91 9360093016
             </div>
-            <div className=" flex gap-4 ">
+            <div className=" md:flex hidden gap-4 ">
               <a
                 href="https://github.com/Surendharangithub"
                 target="_blank"

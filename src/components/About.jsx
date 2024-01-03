@@ -38,7 +38,7 @@ function About() {
           </div>
           <div className=" w-full md:w-1/2 px-5 flex justify-center items-center mb-8`">
             <img
-              src="./images/profile.jpeg"
+              src="./Suren-Portfolio/images/profile.jpeg"
               alt="photos"
               width={700}
               height={700}

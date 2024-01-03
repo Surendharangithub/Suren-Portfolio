@@ -67,7 +67,7 @@ function Home() {
           <div className=" flex flex-col sm:flex-row w-full gap-10">
             <div className=" w-full  lg:w-1/2 px-10 flex justify-center items-center relative z-10">
               <img
-                src="./images/profile.jpeg"
+                src="./Suren-Portfolio/images/profile.jpeg"
                 alt="avatar"
                 className=" rounded-full w-[400px] h-[400px]  border-collapse p-1 border-teal-300 border-e-2"
               />
@@ -75,8 +75,8 @@ function Home() {
               <div className="w-[200px] h-[200px] bg-teal-300 absolute bottom-0 right-[90px] -z-10 blur-3xl drop-shadow-lg shadow-teal-400 rounded-full"></div>
             </div>
             <div className=" z-10 w-full lg:w-1/2 px-10 flex justify-center items-center relative">
-              <div className=" flex flex-col gap-4 max-sm:mt-5 text-center md:text-left">
-                <p className=" dark:text-white/60 text-6xl md:text-3xl xl:text-7xl flex  sm:text-7xl bg-transparent dark:bg-black dark:text-white font-Poppins font-bold dark:bg-transparent">
+              <div className=" flex flex-col gap-4 justify-center items-center md:justify-start md:items-start max-sm:mt-5 text-center md:text-left">
+                <p className=" dark:text-white/60 text-center md:text-left text-2xl md:text-3xl xl:text-7xl flex  sm:text-7xl bg-transparent dark:bg-black dark:text-white font-Poppins font-bold dark:bg-transparent">
                   I am Surendharan
                 </p>
                 <p className=" text-gray-600 text-2xl font-Poppins">

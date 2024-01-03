@@ -9,7 +9,7 @@ function NavBar() {
           border-2  shadow-teal-200 shadow-lg  text-sm
           font-Montserrat "
         >
-          <div className=" flex gap-8 sm:gap-4 px-6 py-3 rounded-full">
+          <div className=" flex gap-3 sm:gap-4 px-6 py-3 rounded-full">
             <AnchorLink href="#home" className="dark:text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
