@@ -23,7 +23,7 @@ function Projects() {
               <p className=" mt-2 text-left font-semibold font-Inter mb-5 dark:text-white">
                 {proj.name}
               </p>
-              <p className=" text-slate-800 dark:text-gray-300 font-Inter line-clamp-3">
+              <p className=" text-slate-800 dark:text-gray-300 font-Inter line-clamp-3 max-md:line-clamp-none">
                 {proj.desc}
               </p>
               <div className=" flex items-end mt-5 gap-2 font-Poppins">

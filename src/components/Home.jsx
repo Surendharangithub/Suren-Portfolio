@@ -67,7 +67,7 @@ function Home() {
           <div className=" flex flex-col sm:flex-row w-full gap-10">
             <div className=" w-full  lg:w-1/2 px-10 flex justify-center items-center relative z-10">
               <img
-                src="./Suren-Portfolio/images/profile.jpeg"
+                src="./images/profile.jpeg"
                 alt="avatar"
                 className=" rounded-full w-[400px] h-[400px]  border-collapse p-1 border-teal-300 border-e-2"
               />

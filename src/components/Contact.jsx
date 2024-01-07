@@ -15,6 +15,14 @@ function Contact() {
         position: toast.POSITION.BOTTOM_RIGHT,
         type: "error",
       });
+    } else {
+      toast("Message sended!", {
+        position: toast.POSITION.BOTTOM_RIGHT,
+        type: "success",
+      });
+      setName("");
+      setEmail("");
+      setFeedback("");
     }
 
     // axios
@@ -23,16 +31,10 @@ function Contact() {
     //     email,
     //     feedback,
     //   })
-      // .then((response) => {
-        toast("Message sended!", {
-          position: toast.POSITION.BOTTOM_RIGHT,
-          type: "success",
-        });
-        setName("");
-        setEmail("");
-        setFeedback("");
-      // })
-      // .catch((error) => console.log(error));
+    // .then((response) => {
+
+    // })
+    // .catch((error) => console.log(error));
   };
 
   const yr = new Date().getFullYear();
@@ -49,12 +51,12 @@ function Contact() {
         </div>
         <div className=" w-full flex flex-col md:flex-row gap-5">
           <div className="md:w-1/2 w-full px-4 py-2">
-            <div className="dark:text-white/75 hidden md:flex relative z-10  text-7xl uppercase font-Poppins   mt-24 text-slate-800 ">
-              GET in <br />
+            <div className="dark:text-white/75 hidden md:flex relative z-10  text-7xl  font-Poppins   mt-24 text-slate-800 ">
+              Get in <br />
               Touch....
               <div className=" w-24 h-24 absolute max-md:hidden bg-red-200 top-0 right-[50%] rounded-full -z-10 blur-2xl  "></div>
             </div>
-            
+
             <div className=" dark:text-white/50 my-10 text-lg hidden md:flex gap-4">
               {" "}
               <svg

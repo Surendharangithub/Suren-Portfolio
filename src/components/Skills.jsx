@@ -12,26 +12,30 @@ function Skills() {
       </div>
       <div className=" flex flex-col md:flex-row w-full gap-5 mt-10">
         <div className=" md:w-1/2 px-4 py-2 w-full">
-          
-                <img src="./Suren-Portfolio//icons/skillsimage.svg"/>
-          
+          <img src="./icons/skillsimage.svg" alt="Skills" />
         </div>
         <div className=" w-full md:w-1/2 grid grid-cols-2  md:grid-cols-3 gap-5 lg:grid-cols-5  mb-10 px-4 md:py-20">
           <div className="px-1 py-11 md:py-5 md:w-24 md:h-24 flex justify-center rounded-lg w-full shadow-md hover:scale-110 transition-all duration-200 border border-indigo-300 hover:shadow-lg ">
-            <img src="./Suren-Portfolio//icons/html.svg" className="" width={40} height={40} alt="html" />
+            <img
+              src="./icons/html.svg"
+              className=""
+              width={40}
+              height={40}
+              alt="html"
+            />
           </div>
           <div className=" px-1 py-11 md:py-5 md:w-24  md:h-24 w-full flex justify-center rounded-lg shadow-md bg-transparent md:translate-y-8 translate-y-0 hover:scale-110 transition-all duration-200  border border-indigo-300 hover:shadow-lg">
-            <img src="./Suren-Portfolio//icons/css.svg" className="" width={40} alt="css" />
+            <img src="./icons/css.svg" className="" width={40} alt="css" />
           </div>
           <div className="px-1 py-11 md:py-5 md:w-24  md:h-24 flex justify-center rounded-lg w-full shadow-md hover:scale-110 transition-all duration-200 border border-indigo-300 hover:shadow-lg ">
-            <img src="./Suren-Portfolio//icons/js.svg" className="" width={40} alt="js" />
+            <img src="./icons/js.svg" className="" width={40} alt="js" />
           </div>
           <div className=" px-1 py-11 md:py-5 md:w-24  md:h-24 w-full flex justify-center rounded-lg shadow-md bg-transparent md:translate-y-8 translate-y-0 hover:scale-110 transition-all duration-200  border border-indigo-300 hover:shadow-lg">
-            <img src="./Suren-Portfolio//icons/react.svg" className="" width={40} alt="react" />
+            <img src="./icons/react.svg" className="" width={40} alt="react" />
           </div>
           <div className="px-1 py-11 md:py-5 md:w-24 md:mt-7  md:h-24 flex justify-center rounded-lg w-full shadow-md hover:scale-110 transition-all duration-200 border border-indigo-300 hover:shadow-lg ">
             <img
-              src="./Suren-Portfolio//icons/tailwind.svg"
+              src="./icons/tailwind.svg"
               className=""
               width={40}
               alt="tailwind"
@@ -39,18 +43,23 @@ function Skills() {
           </div>
           <div className="px-1 py-11 md:py-5 md:w-24 md:mt-7  md:h-24 flex justify-center rounded-lg w-full shadow-md hover:scale-110 transition-all duration-200 border border-indigo-300 hover:shadow-lg ">
             <img
-              src="./Suren-Portfolio//icons/bootstrap.svg"
+              src="./icons/bootstrap.svg"
               className=""
               width={40}
               alt="bootstrap"
             />
           </div>
           <div className=" px-1 py-11 md:py-5 md:w-24  md:h-24 w-full flex justify-center rounded-lg shadow-md bg-transparent md:translate-y-8 translate-y-0 hover:scale-110 transition-all duration-200 border  border-indigo-300 hover:shadow-lg">
-            <img src="./Suren-Portfolio//icons/node.svg" className="" width={40} alt="node" />
+            <img
+              src="./icons/node.svg"
+              className=""
+              width={40}
+              alt="node"
+            />
           </div>
           <div className="px-1 py-11 md:py-5 md:w-24 flex  md:h-24 justify-center rounded-lg w-full shadow-md hover:scale-110 transition-all duration-200 border border-indigo-300 hover:shadow-lg ">
             <img
-              src="./Suren-Portfolio//icons/postman.svg"
+              src="./icons/postman.svg"
               className=""
               width={40}
               alt="postman"
@@ -58,14 +67,14 @@ function Skills() {
           </div>
           <div className=" px-1 py-11 md:py-5  md:w-24 w-full  md:h-24 flex justify-center rounded-lg shadow-md bg-transparent md:translate-y-8 translate-y-0 hover:scale-110 transition-all duration-200  border border-indigo-300 hover:shadow-lg">
             <img
-              src="./Suren-Portfolio//icons/mongodb.svg"
+              src="./icons/mongodb.svg"
               className=""
               width={40}
               alt="mongodb"
             />
           </div>
           <div className="px-1 py-11 md:py-5 md:w-24 md:mt-8 flex  md:h-24 justify-center rounded-lg w-full shadow-md hover:scale-110 transition-all duration-200 border border-indigo-300 hover:shadow-lg ">
-            <img src="./Suren-Portfolio//icons/sql.png" className="" alt="sql" width={40} />
+            <img src="./icons/sql.png"  alt="sql" width={40} />
           </div>
         </div>
       </div>
