@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Suren-Portfolio/static/css/main.60c03510.css",
-    "main.js": "/Suren-Portfolio/static/js/main.fa7803b1.js",
+    "main.css": "/Suren-Portfolio/static/css/main.464acb18.css",
+    "main.js": "/Suren-Portfolio/static/js/main.b9c564bc.js",
     "index.html": "/Suren-Portfolio/index.html",
-    "main.60c03510.css.map": "/Suren-Portfolio/static/css/main.60c03510.css.map",
-    "main.fa7803b1.js.map": "/Suren-Portfolio/static/js/main.fa7803b1.js.map"
+    "main.464acb18.css.map": "/Suren-Portfolio/static/css/main.464acb18.css.map",
+    "main.b9c564bc.js.map": "/Suren-Portfolio/static/js/main.b9c564bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.60c03510.css",
-    "static/js/main.fa7803b1.js"
+    "static/css/main.464acb18.css",
+    "static/js/main.b9c564bc.js"
   ]
 }
