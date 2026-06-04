@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function Home() {
 
